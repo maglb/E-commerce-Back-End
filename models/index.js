@@ -7,30 +7,24 @@ const ProductTag = require('./ProductTag');
 // Products belongsTo Category
 
 Product.belongsTo(Category, {
-  foreignKey: '',
-  onDelete: 'CASCADE',
+  foreignKey: 'category_id',
 });
 
 // Categories have many Products
 Category.hasMany(Product, {
-  foreignKey: '',
-  onDelete: 'CASCADE',
+  foreignKey: 'category_id',
 });
 
 // Products belongToMany Tags (through ProductTag)
 Product.hasMany(ProductTag, {
-  foreignKey: '',
-  onDelete: 'CASCADE',
+  foreignKey: 'product_id',
 });
 
 // Tags belongToMany Products (through ProductTag)
 
 Tags.belongsToMany(ProductTag, {
-  foreignKey: '',
-  onDelete: 'CASCADE',
+  foreignKey: 'ProductTag_id',
 });
-
-module.exports = { Driver, License, Car };
 
 module.exports = {
   Product,
