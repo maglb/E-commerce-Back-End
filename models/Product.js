@@ -42,6 +42,7 @@ Product.init(
         key: 'id',
       },
     },
+  },
   {
     sequelize,
     timestamps: false,
@@ -49,7 +50,6 @@ Product.init(
     underscored: true,
     modelName: 'product',
   }
-}
 );
 
 module.exports = Product;
