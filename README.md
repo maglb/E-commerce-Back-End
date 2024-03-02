@@ -50,3 +50,8 @@ https://limitless-stream-16633-5be9ab797eb8.herokuapp.com/notes
 ## Screenshots
 
 ![Website Screenshot](./public/assets/NoteTaker.png)
+
+
+##  Credits
+
+To finish this assignment, I had the help of our TA Jaytee Padilla and used the AskBCS app as well.
