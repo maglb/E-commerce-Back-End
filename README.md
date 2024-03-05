@@ -4,9 +4,9 @@ Module 13 Challenge
 
 ## Description
 
-For this project, our task was to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+For this project, our task was to build the back end for an e-commerce site, working with Express.js API and configuring it to use Sequelize to interact with a MySQL database.
 
-During this project we learned, how to connect the back-end to the front-en application. We used skills about creating routes with GET, POST and DELETE requests.
+During this project we learned to creating routes with GET, POST and DELETE requests.
 
 Below are the assigmemnt's requirements:
 
@@ -32,24 +32,19 @@ Below are the assigmemnt's requirements:
 
 ## How to use it
 
-Click on the 'Get Started' Button to acces to the Note Taker interface. Enter in the test fields the title of your task/note and write more information in the second text field. Once these fields completed, click on the 'Save Note' button to save your note. Once saved, it will appear in the left section of the screen. You can delete completed taks or old notes by click on the 'delete' button in red.
+Run in the terminal "mysql -u root" to connect the mysql. Run the command "source db/schema.sql" to create the ecommerce_db database. Exit mysql and run in the terminal "node seeds/index.js" to insert the data into the database. Once this is done, run node server and open Insomnia to test each route.
 
 
 ## Links
 
 In order to complete this assignment, I have referred to a few resources:
 
-* Solutions from activities and Mini-Project from module 11
 * Used Xpert Learning Assistant about DELETE requests
 * Tutoring session with Wesley Clement to debugg my code
 
-## Deployed Application
+## Walk through Video
 
-https://limitless-stream-16633-5be9ab797eb8.herokuapp.com/notes
-
-## Screenshots
-
-![Website Screenshot](./public/assets/NoteTaker.png)
+https://drive.google.com/file/d/1TNu0Jh13BV6k2Bvduq84zCJD6IevVRc7/view?usp=sharing
 
 
 ##  Credits
